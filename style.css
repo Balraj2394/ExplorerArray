@@ -1,0 +1,89 @@
+body{
+    background-image: url(https://imgs.search.brave.com/as0T0makOOcCM--DN5jQQuigoZdP9-IKGeMhEui8x8g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc5/MzIxMjY5L3Bob3Rv/L3VuaXZlcnNlLW9m/LW51bWJlcnMuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTRG/NndNMzVITHdQT1BO/ai1rUVhBRkFNWVZM/djk3VzUtZjdTUVJu/SXAxMEE9);
+    background-size: cover;
+}
+
+input{
+    width: 300px;
+    height:40px ;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.order1{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+}
+.order2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+
+}
+#sort{
+    width: 60px;
+    height: 40px;
+    font-size: large;
+}
+#max{
+    width: 60px;
+    height: 40px;
+    font-size: large;
+
+}
+#even{
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}
+#odd{
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}#min{
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}
+#sum{
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}
+#avg{
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}
+#rev{
+    height: 40px;
+    width: 80px;
+    font-size: large;
+}
+
+#filter{
+    height: 40px;
+    width: 120px;
+    font-size: large;
+}
+#message{
+    font-size: 1.5em;
+    /* background-color: white; */
+    color: blue;
+    padding: 25px 15px 15px ;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
